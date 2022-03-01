@@ -1,0 +1,16 @@
+def month(full):
+   if full == 1: print("January")
+   elif full == 2: print("February")
+   elif full == 3: print("March")
+   elif full == 4: print("April")
+   elif full == 5: print("May")
+   elif full == 6: print("June")
+   elif full == 7: print("July")
+   elif full == 8: print("August")
+   elif full == 9: print("September")
+   elif full == 10: print("October")
+   elif full == 11: print("November")
+   elif full == 12: print("December")
+   
+mnt = int(input("Enter a number between 1 and 12: "))
+month(mnt)
