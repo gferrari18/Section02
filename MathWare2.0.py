@@ -14,8 +14,10 @@ def getnum():
     return num
 
 def math():
-    q = 0
+    q = 1
+    points = 0
     while q <= 10:
+        print("Question " + str(q) + ":")
         A = getnum()
         B  = getnum()
         C = getnum()
@@ -30,8 +32,10 @@ def math():
             print("Incorrect, try again!")
             ans = int(input("Answer: "))
         q = q + 1
+        points = points + 1
+
     print("congrats, you got it all done!")
-        
+    print("You scored " + str(points) + " out of 10!")  
 math()
 
 
